@@ -1,0 +1,128 @@
+*{
+    color: #004200;
+    font-family: 'Times new Roman';
+}
+
+.kulso{
+    width: 700px;
+    margin: auto;
+    background-color:#deffff;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px #555;
+}
+#fej{
+    clear: both;
+}
+#fej::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+#cim{
+    background-color: #adffce;
+    border: 2px solid green;
+    margin: 3px;
+    font-family: 'Courier';
+}
+#cim2{
+    text-align: center;
+    width: 500px;
+    background-color:#adffce;
+    border-top: 4px solid #84847b;
+    border-left: 4px solid #84847b;
+    border-bottom: 4px solid #292929;
+    border-right: 4px solid #292929;
+    margin: auto;
+}
+#cim h1{
+    font-size: 47px;
+    font-weight: normal;
+}
+#cim h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+h3{
+    font-size: 25px;
+}
+#jobb{
+    float: right;
+}
+
+#alcimek h1{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 22px;
+    margin-bottom: 35px;
+    margin-top: 30px;
+}
+#alcimek p{
+    text-align: left;
+    text-indent: 20px;
+}
+
+
+/* 1.Táblázat */
+#szallas{
+    margin: auto;
+}
+#szallas th{
+    background-color: #42ad63;
+    font-weight: bold;
+    text-align: center;
+    min-height: 3px;
+    padding: 6px;
+    width: 150px;
+}
+#szallas td{
+    background-color: #8cdead;
+    text-align: right;
+    padding: 6px;
+}
+#szallas td:nth-child(1){
+    text-align: center;
+}
+
+/* 2.Táblázat */
+#menu{
+    border: 2px solid grey;
+    border-bottom: 2px solid black;
+    margin: auto;
+}
+#menu td{
+    background-color: #8cdead;
+    width: 200px;
+    padding: 6px;
+    border: 1px solid grey;
+}
+
+
+#uto{
+    float: left;
+    height: 126px;
+}
+#fs{
+    list-style: disc;
+    float: left;
+    margin-bottom: 40px;
+}
+hr{
+    margin: 15px;
+    color: #42ad63;
+    background: #42ad63;
+    height: 3px;
+    clear: both;
+}
+h1, h2, p{
+    text-align: center;
+}
+
+.corsiva{
+    font-family: "Monotype Corsiva";
+}
+
+#min{
+    float: right;
+    font-size: small;
+}
